@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.responseHeaders-header {
+  text-align: left;
+}
+
+.responseHeaders-headerName {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.responseHeaders-headerValue {
+  font-family: monospace;
+}
+
+.responseBody-iframe {
+  width: 100%;
+  box-sizing: border-box;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+}
+
+.responseBody-text {
+  width: 100%;
+  box-sizing: border-box;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  padding: 4px;
+  overflow: auto;
+}
